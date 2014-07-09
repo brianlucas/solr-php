@@ -62,7 +62,7 @@ $solr->addIndex($containerarray);
 
 ```
 
-## SolrUpdate Instructions
+## SolrQuery Instructions
 
 ```php
                 $query = new SolrQuery;
@@ -75,3 +75,4 @@ $solr->addIndex($containerarray);
 
                 $results = $query->runQuery($titlekeywords);
                 print_r($results);
+```
